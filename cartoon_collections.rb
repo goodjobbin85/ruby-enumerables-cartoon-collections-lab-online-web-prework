@@ -22,8 +22,7 @@ def find_the_cheese(list) # code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
   list.each do |thing| 
     if cheese_types.include?(thing) 
-      puts thing
-      return "#{thing}"
+      return thing
     else 
       return nil 
     end 
