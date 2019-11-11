@@ -26,7 +26,6 @@ def find_the_cheese(list) # code an argument here
     else 
       return nil 
     end 
-    return "#{thing}"
   end
   
 end
